@@ -67,7 +67,14 @@ const App = () => {
         setDatabase={setDatabase}
         emojiMap={emojiMap}
       />
-      <AddItem database={database} setDatabase={setDatabase} />
+      <div
+        style={{
+          border: "none",
+          borderRadius: "30px",
+        }}
+      >
+        <AddItem database={database} setDatabase={setDatabase} />
+      </div>
     </div>
   );
 };

@@ -46,7 +46,7 @@ const ProductTable = ({ info, checked, search, setDatabase, emojiMap }) => {
         {fruitData.length > 0 && (
           <tr>
             <th
-              colSpan="2"
+              colSpan="4"
               style={{
                 textAlign: "center",
                 padding: 12,
@@ -119,7 +119,7 @@ const ProductTable = ({ info, checked, search, setDatabase, emojiMap }) => {
 
         {vegetableData.length > 0 && (
           <tr>
-            <th colSpan="2" style={{ textAlign: "center", padding: 12 }}>
+            <th colSpan="4" style={{ textAlign: "center", padding: 12 }}>
               Vegetables
             </th>
           </tr>

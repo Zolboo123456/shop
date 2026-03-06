@@ -15,7 +15,7 @@ const FilterableProductTable = ({
       style={{
         width: "400px",
         minHeight: "377.5px",
-        border: "1px solid black",
+        borderRadius: "30px",
         padding: "20px",
         backgroundColor: "white",
       }}

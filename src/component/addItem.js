@@ -53,6 +53,9 @@ const AddItem = ({ setDatabase, database, rowData }) => {
         flexDirection: "column",
         gap: "18px",
         border: "black 1px solid",
+
+        border: "none",
+        borderRadius: "30px",
       }}
     >
       <h2 style={{ textAlign: "center", margin: 0 }}>ADD NEW ITEM</h2>
