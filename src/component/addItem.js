@@ -29,7 +29,7 @@ const AddItem = ({ setDatabase, database, rowData }) => {
     setFormData({
       category: "",
       name: "",
-      price: 0,
+      price: "",
       stocked: false,
       id: uuidv4(),
     });
