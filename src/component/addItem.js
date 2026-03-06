@@ -5,7 +5,7 @@ const AddItem = ({ setDatabase, database, rowData }) => {
   const [formData, setFormData] = useState({
     category: "",
     name: "",
-    price: 0,
+    price: "",
     stocked: false,
     id: uuidv4(),
   });
