@@ -7,13 +7,15 @@ const FilterableProductTable = ({
   setChecked,
   search,
   setSearch,
+  setDatabase,
+  emojiMap,
 }) => {
   return (
     <div
       style={{
         width: "400px",
-        height: "600px",
-        border: "1px solid grey",
+        minHeight: "377.5px",
+        border: "1px solid black",
         padding: "20px",
         backgroundColor: "white",
       }}
@@ -27,7 +29,13 @@ const FilterableProductTable = ({
         setSearch={setSearch}
       />
 
-      <ProductTable info={data} checked={checked} search={search} />
+      <ProductTable
+        info={data}
+        checked={checked}
+        search={search}
+        setDatabase={setDatabase}
+        emojiMap={emojiMap}
+      />
     </div>
   );
 };
