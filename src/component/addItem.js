@@ -52,8 +52,6 @@ const AddItem = ({ setDatabase, database, rowData }) => {
         display: "flex",
         flexDirection: "column",
         gap: "18px",
-        border: "black 1px solid",
-
         border: "none",
         borderRadius: "30px",
       }}
